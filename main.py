@@ -109,8 +109,10 @@ async def stop(guild_id: int) -> None:
     del pool[guild_id]
 
 
-# Wavファイルの再生をする、`AudioSource`の実装
+# Wavファイルを再生するための実装
 class WavAudio(discord.AudioSource):
+    """Wavファイル形式のデータを再生するための、``AudioSource``の実装。"""
+
     def __init__(self, stream: IO[bytes]) -> None:
         self._wav: wave.Wave_read = wave.open(stream)
 
