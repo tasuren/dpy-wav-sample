@@ -1,4 +1,4 @@
-# discord.py wav player sample
+# dpy-wav-sample
 discord.pyでFFmpegを使わずにwavファイルを再生するコードのサンプル。
 
 ## 使い方
