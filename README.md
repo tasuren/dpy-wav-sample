@@ -11,6 +11,10 @@ discord.pyでFFmpegを使わずにwavファイルを再生するコードのサ�
 - `wave!stop`
     音声を再生停止し、切断します。
 
+### 同梱している音声
+[audio](./audio)ディレクトリに三角波や音楽のサンプルwavファイルがあります。  
+なお、`musicbox.wav`は[みゅうーさんのフリーWave](https://www.ne.jp/asahi/music/myuu/wave/wave.htm)にあるものです。
+
 ## 移植方法
 自分のBotに移植したい場合、`WavAudio`クラスを最低限移植すれば大丈夫です。
 このクラスがwavファイルを再生できる、`discord.AudioSource`の実装です。
