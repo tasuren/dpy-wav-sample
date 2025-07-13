@@ -6,9 +6,9 @@ discord.pyでFFmpegを使わずにwavファイルを再生するコードのサ�
 `uv sync`で依存関係を用意して、`.env.template`を参考に設定ファイル`.env`を作成し、`uv run main.py`で起動できます。
 
 ### コマンド一覧
-- `wave!play <waveファイルのパス>`
+- `wave!play <waveファイルのパス>`  
     接続して指定された音声を再生します。音声が未指定なら、`audio/musicbox.wav`が再生されます。
-- `wave!stop`
+- `wave!stop`  
     音声を再生停止し、切断します。
 
 ### 同梱している音声
