@@ -1,6 +1,6 @@
 [project]
 name = "dpy-wav-sample"
-version = "0.1.0"
+version = "0.1.1"
 description = "discord.pyでwavファイルをFFmpegなしで再生するサンプルプログラム。"
 readme = "README.md"
 requires-python = ">=3.14.0"
