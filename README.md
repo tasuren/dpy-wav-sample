@@ -39,5 +39,5 @@ vc.play(WavAudio(f), after=lambda _: f.close())
 
 ## License
 
-このリポジトリのコードは[BSD Zero Clause License](./LICENSE)に基づいて許諾されています。  
+このリポジトリは[BSD Zero Clause License](./LICENSE)の下で公開されています。  
 （TL;DR 著作権表記しないで自由に改変・再利用して問題ありません。保証は免責となります。）
